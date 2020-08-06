@@ -1,0 +1,17 @@
+{
+  "name": "cat-bot",
+  "version": "1.0.0",
+  "description": "Instagram Bot which post daily randomly cat image with random cat fact as its caption",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Vinod Nimbalkar",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "instagram-web-api": "^2.2.0",
+    "random-int": "^2.0.1"
+  }
+}
